@@ -5,19 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Responsive Layout</title>
 </head>
 
 
 <header>
-
+    <nav class="row container jc-between">
+        <div>
+            <img src="./img/logo.png" alt="Logo" class="logo">
+        </div>
+        <ul class="row gap-20">
+            <li class="nav-item"><a href="#">Planning</a></li>
+            <li class="nav-item"><a href="#">Testimonials</a></li>
+            <li class="nav-item"><a href="#">Feautures</a></li>
+            <li class="nav-item"><a href="#">About us</a></li>
+            <li class="nav-item"><a class="btn btn-white" href="#">Get Started</a></li>
+            <i class="ri-menu-line mobile-menu"></i>
+        </ul>
+    </nav>
 </header>
 
 
 
 
 <body>
-    
+    <section class="section first-section">
+        <div class="container row cards">
+
+            <div class="row text-center card tb">
+                <div class="col al-center mb-20">
+                    <h3 class="mb-20 text-center">Get a demo application</h3>
+                    <p class="mb-20 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto eius consectetur aut in laborum iste ipsum error eligendi dignissimos.</p>
+                    <a class="btn" href="#"><i id="apple" class="fa-brands fa-apple"></i> App Store</a>                </div>
+                <div class="col al-center">
+                    <img src="./img/phone.png" alt="Phone">
+                </div>
+            </div>
+
+            <div class="col text-center card tb">
+                <i class="fa-solid fa-file-code"></i>
+                <h3 class="mb-20 text-center">Clean Code</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto eius consectetur aut in laborum iste ipsum error eligendi dignissimos.</p>
+            </div>
+
+            <div class="col text-center card tb">
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h3 class="mb-20 text-center">Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto eius consectetur aut in laborum iste ipsum error eligendi dignissimos.</p>
+            </div>
+
+            <div class="col text-center card tb">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3 class="mb-20 text-center">Developement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto eius consectetur aut in laborum iste ipsum error eligendi dignissimos.</p>
+            </div>
+
+            <div class="col text-center card tb">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3 class="mb-20 text-center">Branding</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto eius consectetur aut in laborum iste ipsum error eligendi dignissimos.</p>
+            </div>
+        </div>
+    </section>
+
+
 </body>
 
 
